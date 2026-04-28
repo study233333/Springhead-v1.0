@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Checkpoints / Weights
+*.pt
+*.pth
+*.bin
+*.safetensors
+checkpoints/**/*.pt
+
+# Benchmark temp output (optional, uncomment if you want to ignore)
+# scripts/benchmark_results/
+
+# Backup archive
+archive/
